@@ -1,0 +1,85 @@
+<ion-content [fullscreen]="true">
+  <ion-toolbar mode="md">
+    <ion-title>
+      Good morning, Mohammad
+      <div class="subtitle">23.12 Bond points</div>
+    </ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-avatar>
+          <img alt="" src="assets/p_logo.jpg" />
+        </ion-avatar>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <div class="centerLogo">
+    <img src="../assets/Boosting_Indicator.png" alt="">
+  </div>
+  <div class="cardDiv">
+    <ion-card>
+      <div>
+        <div class="cardCnt">
+          <p>Activity Rate</p>
+          <img src="../assets/Vector.svg" alt="">
+        </div>
+        <ion-card-subtitle>0.75 points/hr</ion-card-subtitle>
+      </div>
+    </ion-card>
+
+    <ion-card>
+      <div>
+        <div class="cardCnt">
+          <p>Your network</p>
+          <img src="../assets/Vector.svg" alt="">
+        </div>
+        <ion-card-subtitle>10 active</ion-card-subtitle>
+      </div>
+    </ion-card>
+  </div>
+  <p class="p">Ta to boost your Bond points</p>
+
+  <div class="bottomDiv">
+    <p>Do more with Bondex</p>
+    <swiper-container [slidesPerView]="2.3" [spaceBetween]="9" [loop]="true" [autoplay]="true">
+      <swiper-slide>
+        <div class="sliderContent">
+          <div class="imgDiv">
+            <img alt="" src="assets/sliderImg/Center.svg" />
+          </div>
+          <ion-card>
+            <ion-card-content>
+              Lean about Bond points
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="sliderContent">
+          <div class="imgDiv">
+            <img alt="" src="assets/sliderImg/userP.svg" />
+          </div>
+          <ion-card>
+            <ion-card-content>
+              Increase your Activity
+              rate tip #1 
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </swiper-slide>
+      <swiper-slide>
+        <div class="sliderContent">
+          <div class="imgDiv">
+            <img alt="" src="assets/sliderImg/Group.svg" />
+          </div>
+          <ion-card>
+            <ion-card-content>
+              Increase your Activity
+              rate tip #2
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</ion-content>

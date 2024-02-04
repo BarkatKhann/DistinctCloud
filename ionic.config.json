@@ -1,0 +1,7 @@
+{
+  "name": "distinct_cloud_test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
